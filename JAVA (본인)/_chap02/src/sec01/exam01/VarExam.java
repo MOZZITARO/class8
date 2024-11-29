@@ -16,8 +16,10 @@ public class VarExam {
 		// 이클립스 단축키
 		/*
 		 * 한 줄 지우기: Ctrl + d 
-		 * 한 줄 복사 : Ctrl + Alt + 위아래 방향키 한 줄 이동 : Alt 코드 정렬 : Ctrl +
-		 * Shift + f 주석 단축키: Ctrl +
+		 * 한 줄 복사 : Ctrl + Alt 
+		 * 위아래 방향키 한 줄 이동 : Alt 
+		 * 코드 정렬 : Ctrl + Shift + f
+		 * 주석 단축키: 
 		 */
 
 		System.out.println("Hello World");

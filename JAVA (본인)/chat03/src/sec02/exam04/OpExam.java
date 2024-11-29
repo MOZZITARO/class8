@@ -48,6 +48,7 @@ public class OpExam {
 				System.out.println(honey + ripstick) * (1 - 0.15);
 				// 변수에 저장하고 컴퓨터에게 맡기기.
 				
+				
 				// 2. 7234원이 있어요
 		        // 5000, 1000, 500, 100, 50, 10, 1원
 		        // 각각 최대 몇개까지로 표현할 수 있나요?
@@ -103,7 +104,7 @@ public class OpExam {
 		
 		        /// 숫자 <> 문자 변환
 		        char c1 = 'A';
-		        c1 = (char)(c1 + 1); // 덮어씌움 A+1 = B
+		        c1 = (char)(c1 + 1); // 유니코드
 		        System.out.println(c1);		        
 		        System.out.println("" + 3 + 3.0);
 		        // 숫자를 문자로 바꾸는 가장 간단한 ""
@@ -111,9 +112,10 @@ public class OpExam {
 		        
 		        /*문자열*/ String c2 = "100";
 		        int c3 = Integer.parseInt(c2);
+		        //long b = Long.parseLong(c2) 
 		        System.out.println(c3 + 3);
 		        
-		        //long b = Long.parseLong(c2) 
+		        
 		        // 문자를 숫자로 바꾸는 방법
 		        
 		        
@@ -163,7 +165,7 @@ public class OpExam {
 		            
 		            
 		            
-		            // 대입 연산자 ------?
+		            // 대입 연산자 ------??
 		            int m1 = 5;
 		            m1 = m1 + 2;
 		            m1 += 2;
@@ -172,7 +174,7 @@ public class OpExam {
 		            int n1 = 10;
 		            n1 = n1 + 1;
 		            n1 += 1;
-		            n1++;
+		            n1++; //
 		            System.out.println( n1 );
 		            
 		            n1 = n1 - 1;
@@ -192,9 +194,11 @@ public class OpExam {
 		            int x = 1;
 		            int y = 1;
 		            int result1 = ++x + 10; // 1 두번 더하기
-		            int result2 = y+++ + 10; // +++ 나중에 쓰임
+		            int result2 = y++ + 10; // +++ 나중에 쓰임
 		            System.out.println(+ (result1)); 
 		            System.out.println(+ (result2));
+		            
+		            
 		            
 		            
 		            
@@ -216,6 +220,24 @@ public class OpExam {
 		            System.out.println(var4);
 		            
 		            
+		            
+		            
+		            //1128
+		            
+		            // v1 / v2의 값을 소수점 3자리 까지만 출력
+		            double v1 = 1000;
+		            double v2 = 457;
+		            
+	                // 3자리까지 정수로 건져내고 뒷자리는 버린다음 다시 소수로
+		            double v3 = (v1 / v2) * 1000;
+		            int v4 = (int)v3;
+		            double v5 = (double)v4 / 1000;
+		            
+		            System.out.println(v5);
+		            
+		           
+		            
+		   
 		            
 		            
 		            

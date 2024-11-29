@@ -10,7 +10,7 @@ public class TypeCastingExam {
 		// 여기서 ()는 우선순위
 		int a = 2 + (3*4);
 		
-		 // 형변환 연산자 ()
+		 // 1. 형변환 연산자 ()
 		     long b = (long)a;
 		     // int가 long보다 작으니까 형 변환해도 손해없음
 		// 형 변환 연산자 생략 가능
@@ -54,6 +54,9 @@ public class TypeCastingExam {
 		     
 		     
 		     
+		     ///// 퀴즈 
+		     
+		     
 		     
 		     double total = 4.3;
 		     int count = 4;
@@ -78,7 +81,7 @@ public class TypeCastingExam {
 		       float h2 = (float)((e2-(double)g21)* count);
 		       float f2 = (float) h2 + g21; // 생략가능
 		       System.out.println(" 총 금액은" + f2 + "만원");
-		       /// ---?
+		       // ?
 		       
 		       
 		       
@@ -109,7 +112,7 @@ public class TypeCastingExam {
 
 
 
-/* 1127 변수(종류) 선언 = 
+/* 1127 변수(종류) 선언 (=) 
 // 1. 내 나이: int
  * 2. 운전면허 보유 여부 : boolean
  * 3. 우리집 스마트폰 갯수 : int

@@ -6,7 +6,7 @@ public class VarTypeExam {
 		// TODO Auto-generated method stub
 
 		// 바이트타입. long 타입 
-		byte b = 127;
+		byte b = 127; //// 127까지만
 		// b = 128;
 		// byte b1 = 100;
 		// byte b2 = 80;
@@ -16,7 +16,7 @@ public class VarTypeExam {
 		long l2 = 20L;
 		
 		//long l3 = 10000000000;
-		long l4 = 10000000000L;
+		long l4 = 10000000000L; //큰 범위의 정수(L)
 		
 		//char 타입(아스키 코드)
 		char c1 = 'A';
