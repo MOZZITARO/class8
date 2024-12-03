@@ -542,8 +542,18 @@ public class IfExam {
 			    	 
 	}
 		
-	}
 	
+		    for(int inty=1; inty<=5; inty++) {
+				
+				{
+					//inty 1 2 3 4 5
+				}
+			for(int intyy=1; intyy < inty; intyy++) {
+				System.out.println(inty); 
+			}
+	}
 }
-
+}
+				
+			
 
