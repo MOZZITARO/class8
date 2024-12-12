@@ -82,27 +82,27 @@ public class breakexam {
 		String bank = scan.nextLine();
 		
 		
-//		while( bank != 4 );
-//			if (bank = 1); {
-//				System.out.println("1. 예금 "); }
-//				else if (bank = 4); {
-//					System.out.println("2. 출금 "); }
-//				else if (bank = 3); {
-//					System.out.println("3. 잔고 ");
-//				} else {
-//					System.out.println("4. 종료 ");
-//				}
-//			
-//			
+		while( bank != 4 ); {
+			if (bank = 1); {
+				System.out.println("1. 예금 "); }
+				else if (bank = 2); {
+					System.out.println("2. 출금 "); }
+				else if (bank = 3); {
+					System.out.println("3. 잔고 ");
+				} else {
+					System.out.println("4. 종료 ");
+				}
+			
+		}
 		int bal = 0;	
 		do {
 			System.out.println("-------------------------");
 			System.out.println("1.예금 2. 출금 3. 잔고 4.종료");
 			System.out.println("-------------------------");}
-		if (bal > 0)
+		if (bal > 0) {
 			
 		} while(true); 
-	
+	}
 			
 		
 //		//로또
