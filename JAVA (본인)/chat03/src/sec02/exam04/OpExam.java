@@ -238,8 +238,15 @@ public class OpExam {
 		           
 		            
 		   
+
+		    		int num = (int)(Math.random()*45);
+		    		System.out.println(num);
+		    		
 		            
-		            
+//		    		int rand = (int) Math.random();
+//		    		double temp15 =rand*45;
+//		    		int temp25 = (int)temp15;
+//		    		int rotto = (int)(temp15 + 1);
 		            
 		            
 	

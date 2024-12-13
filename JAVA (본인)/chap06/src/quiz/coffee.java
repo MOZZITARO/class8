@@ -126,10 +126,14 @@ public class coffee {
 	    	coffee = scan.nextInt(); 
     	    } 
 		
-		
+
+
+		int num = (int)(Math.random()*6);
+		System.out.println(num);
 		
 }
 
+	
 }
 		
 		
@@ -188,7 +192,6 @@ public class coffee {
 	
 		
 //	} while(coffee != 4);
-	
 	
 	
 	
