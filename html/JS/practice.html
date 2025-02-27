@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+
+
+
+
+
+    <div>
+        <div id="letter">cafe.naver.com</div>
+   </div>
+
+
+    <script>
+
+
+let letter = "cafe.naver.com";
+let cut = letter.split(".")
+console.log(cut[1])
+
+
+const domain = "cafe.naver.com";
+let idx = domain.indexOf(".");
+console.log(idx);
+const domain2 = domain.substr(idx + 1);
+console.log(domain2)
+idx = domain2.indexOf(".")
+const domain3 = domain2.substr(0, idx);
+console.log(domain3)
+// abcde@abc.com
+// ab***@abc.com
+
+
+
+
+
+
+let mail = "hope@human.or.kr";
+// @앞 2번째 요소 뒤에 것을 바꾸기
+
+let position = mail.indexOf("@");
+console.log(position)
+
+let sub = mail.substring(2,position)
+console.log(sub)
+
+
+
+let rep = sub.replace(sub, "**")
+  console.log(rep)
+
+
+
+
+
+
+
+
+
+let index = mail.slice(2,4);
+console.log(index)
+// index = "**";
+// console.log(index)
+
+
+// @보다 앞에 있다면 slice한 문자는 *이다
+
+
+
+
+
+    </script>
+
+
+
+   
+</body>
+</html>

@@ -1,0 +1,44 @@
+h1 {
+
+
+    
+    margin-top: 5%;
+    font-weight: normal;
+}
+
+div {
+    color: azure;
+background-repeat: no-repeat ;
+background-image: url("https://html5up.net/uploads/demos/tessellate/images/header.jpg");
+background-size: 100%;
+padding: 10%;
+text-align: center;
+
+
+
+}
+
+button {
+
+border-radius: 4px;
+border-color: azure;
+width: 28%;
+padding: 12px;
+margin-left: 1%;
+margin-bottom: 1px;
+margin-top: 3%;
+background-color: #ffffff30;
+/* background-color: #ffffff30; 투명도 낮추기*/
+color: azure;
+
+
+}
+
+
+
+
+
+
+
+
+

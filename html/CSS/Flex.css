@@ -1,0 +1,56 @@
+.container {
+
+    border: 1px solid green;
+    height: 300px;
+    width: 500px;
+
+    display: flex;
+    /* display: inline - flex */
+
+    /*main 측 기본값: 왼쪽에서 오른쪽 */
+    /*flex-direction:row; */
+    /* 오른쪽에서 왼쪽으로 */
+    /*flex-direction:row-reverse; */
+    /* main축과 cross축을 변경해서 위에서 아래로*/
+    /*flex-direction:column; */
+    /* 아래에서 위로 */
+    /* flex-direction: column-reverse; */
+    /* 한줄에 모든 상태 표시하려 노력 - 기본값 */
+    /* flex-wrap: nowrap; */
+    /* inline - block처럼 : 넘치면 다음줄로 */
+    /* flex-wrap: wrap; */
+    /* cross축의 방향 변경 */
+    /* flex-wrap: wrap-reverse; */
+
+    /* 기본값, main축 start 방향으로 정렬 */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* 사이사이 균등하게 배치 */
+    /* justify-content: space-between; */
+    /* item 양쪽에서 균등배치 */
+    /* justify-content: space-evenly; */
+    /* 한 줄에 대한 cross 축 */
+    /* 기본값, 부모 크기만큼 cross축 방향으로 쭉 늘리기(꽉 참) */
+    /* align-items: stretch; */
+    /* align-items: flex-start;
+    align-items: flex-end;
+    align-items: center; */
+
+
+    /*여러 줄에 대한 cross */
+    /* 기본값: 각 줄의 높이를 꽉 채운 상태 */
+    /* align-contents: stretch; */
+    /* align-items: flex-start;
+    align-items: flex-end;
+    align-items: center; */
+
+}
+
+.container .item {
+
+    border: 1px solid red;
+    background-color: brown;
+    color: white;
+     
+    width: 100px;
+}
