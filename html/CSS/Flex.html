@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="flex.css">
+</head>
+<body>
+      <div class="container">
+        <div class="item">1</div>
+        <!-- 
+        order 기본값 : 0
+        order값이 클 수록 뒤에
+        같다면 html 순서대로 표시
+        html 수정없이 순서 변경가능
+
+        
+        
+        
+        
+        
+        -->
+        <div class="item" style="order: 1">2</div>
+        <div class="item" style="order: -1">3</div>
+<!-- 
+       flex: grow: 남는 공간을 꽉 채움
+        기본값 : 0
+        모든 flex-grow의 합으로 남은 공간 너비 나누고
+        flex-grow값만큼 분배 해줌
+        
+        
+        
+        
+        -->
+        <div class="item" style="flex-shrink: 1">4</div>
+        <div class="item" style="flex-shrink: 3">5</div>
+        </div>
+<!-- 
+        flex: shrink : 줄어들 공간 비율 조절
+        기본값 : 1
+        모든 flex-shrink의 합으로 줄어들 공간 나누고
+        flex-shrink값만큼 줄어들게 해줌
+        
+        
+        
+        
+        -->
+
+
+
+</body>
+</html>

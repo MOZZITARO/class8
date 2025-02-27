@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <form method="get" action="주소">
+
+    
+        text(기본값) : <input type="text"><br>
+        text(value) : <input type="text" value="아무거나 치세요"><br>
+        text(placeholder) : <input type="text" value="value" placeholder="아무거나 치세요"><br>
+        text(readonly) : <input type="text" value="value" readonly="readonly">
+        text(disabled) : <input type="text" value="value" disabled="disabled">
+
+        password : <input type="password"><br>
+        radio: 
+        <input type="radio" name="gender" value="male" checked="checked">남자
+        <input type="radio" name="gender" value="female" checked="checked">여자
+        <input type="radio" name="gender" value="" >비공개
+        <br>
+        checkbox:
+        <input type="checkbox" name="gender" value="male" >페퍼로니
+        <input type="checkbox" name="gender" value="female" checked="checked">올리브
+        <input type="checkbox" name="gender" value="" >비공개
+        <br>
+        flie: <input type="file">
+        <br>
+        reset: <input type="reset">
+        <br>
+        검색: <input type="text" name="search">
+        <br>
+        submit: <input type="submit" value="전송">
+
+        <br>
+        hidden: <input type="hidden" name="secret" value="1234">
+
+        date - <input type="date" name="secret" value="1234">
+        <br>
+        color = <input type="color" name="secret" value="1234">
+        <br>
+        name == <input type="name" name="secret" value="1234">
+        <br>
+        range : <input type="range" name="ran" step="4">
+
+        <br>
+        input button : <input type="button" name="secret" value="야구">
+        <br>
+       
+        <button type="button">할리버튼</button>
+        
+        <!-- <a href="https://n.news.naver.com/mnews/article/055/0001215711?sid=104">
+        <img src="https://imgnews.pstatic.net/image/055/2024/12/16/0001215711_001_20241216112309700.jpg?type=w860">
+        <button type="button">비트코인</button>
+        </a> -->
+
+        <br>
+        <textarea rows="20" cols="199" name="textarea">
+            s
+        </textarea>
+
+        <br>
+        <select name="lunch" multiple="multiple" size="5">
+            <option value="1">한식</option>
+            <option value="2">양식</option>
+            <option value="3" selected="selected">중식</option>
+            <option value="4">분식</option>
+        </select> <!-------- 실제 값은 1234-->
+
+
+        <br>
+        <input type="checkbox" id="chk"> <label for="chk"> 선택자 </label>
+        <br>
+        <label for="chk2">
+            <input type="checkbox" id="chk2"> 선택자2
+        </label>
+
+
+
+        <fieldset>
+            <legend>제목3</legend>
+            글씨들
+        </fieldset>
+    </form>
+
+<form method="get" action="https://search.naver.com/search.naver">
+    네이버 검색 : <input type="text" name="query" value="검색" placeholder="검색어 입력">
+    <input type="submit" value="네이버 검색">
+</form>
+
+<form method="get" action="https://www.google.co.kr/search">
+    구글 검색 : <input type="text" name="q" value="검색" placeholder="검색어 입력">
+    <input type="submit" value="구글 검색">
+</form>
+
+
+
+</body>
+</html>

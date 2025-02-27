@@ -1,0 +1,120 @@
+div {
+    border: 1px solid red;
+}
+
+.parent{
+
+
+
+    width: 100px;
+    margin: 20px;
+    background: green;
+    
+}
+
+.child {
+
+    background: rgba(0,0,255,0.5);
+}
+
+
+.relative {
+
+
+    position: relative;
+    top: 10px;
+    left: -20px;
+}
+
+.fixed {
+
+
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+}
+
+.sticky {
+
+
+    position: sticky;
+    top: 0px;
+}
+
+.absoulte {
+
+
+position:absolute;
+
+top: 250px;
+left: 150px;
+}
+
+.z1 {
+    background-color: hotpink;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+
+.z2 {
+    background-color: brown;
+    top: -10px;
+    left: -20px;
+    z-index: 2;
+}
+.z3 {
+    background-color: #000;
+    color: aliceblue;
+    top: -20px;
+    left: 50px;
+    /* z-index: 999; */
+}
+
+.relative:hover {
+
+    z-index: 99;
+}
+
+.main {
+
+    background-color: yellow;
+}
+
+.main .sub {
+    background-color: aqua;
+
+    position: relative;
+    top: 5px;
+}
+
+
+
+body {
+
+
+    border: 2px solid gray;
+    width: 1000px;
+    height: 1000px;
+}
+
+.p1  {
+
+    width: 200px;
+    height: 150px;
+    position: relative;
+}
+
+.p1 .c1 {
+    width: 70px;
+    height: 50px;
+
+    position: absolute;
+    top: calc(150px/2 - 50px/2);
+    left: calc(50% - 70px/2);
+}

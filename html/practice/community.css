@@ -1,0 +1,96 @@
+body {
+
+
+
+
+    /* border: 2px solid gray; */
+    width: 1257px;
+    height: 840px;
+}
+
+#pillar {
+
+    background-color: #e4d2c0;
+    position: absolute;
+    left: 40%;
+    
+    width: 331px;
+    height: 840px;
+    z-index: -1;
+}
+
+#family{
+
+    /* border: 2px solid gray; */
+    width: 560px;
+    height: 470px;
+    padding: 20px;
+    display: inline-block;
+
+}
+#bible {
+
+    /* border: 2px solid gray; */
+    width: 600px;
+    height: 290px;
+    display: inline-block;
+    vertical-align: top;
+    
+
+}
+#man {
+
+    /* border: 2px solid gray; */
+    width: 600px;
+    height: 250px;
+   
+
+
+}
+#letter {
+    
+    
+    color: white;
+    background-color: gray;
+    /* border: 2px solid gray; */
+    width: 555px;
+    height: 470px;
+    position: absolute;
+    left:620px;
+    bottom: 125px;
+}
+
+img {
+
+
+width: 555px;
+height: 470px;
+
+}
+
+#iiii {
+
+
+
+
+    width: 262px;
+    height: 220px;
+    padding: 20px;
+}
+
+#iii {
+
+
+    width: 262px;
+    height: 220px;
+    padding: 20px;
+    position: relative;
+    left: 300px;
+}
+
+li {
+
+
+    list-style: none;
+    padding: 30px 0px 0px;
+}

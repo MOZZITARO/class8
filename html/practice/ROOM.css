@@ -1,0 +1,62 @@
+.roomp{
+         width: 250px;
+         height: 320px;
+         
+}
+
+
+
+.oneroom {
+    
+   
+    text-align: center;
+    
+    font-weight: bold;
+}
+
+#roomfirst {
+    
+width: 20%;
+
+display: inline-block;
+
+vertical-align: middle;
+margin-top: 20px;
+
+}
+
+#roomsecond {
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+#roomthird {
+    width: 20%;
+    vertical-align: middle;
+    display: inline-block;
+    
+}
+
+#letter {
+
+
+
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#box {
+
+
+
+    text-align: center;
+}
+
+body {
+
+
+    background-color: lightgrey;
+}

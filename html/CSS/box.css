@@ -1,0 +1,51 @@
+.first {
+
+/*   4개 top right bottom left  */
+/*   3 top right + left  bottom  */
+/*   2 top+bottom right + left    */
+/*   1 4방향 균일    */
+    border: 1px solid green;
+    margin-right: 50px;
+    margin-top: 40px;
+    
+}
+
+body {
+
+    border: 1px solid red;
+    margin: 0;
+}
+
+img {
+
+    border: 1px solid red;
+    width: 50%;
+    height: 50%;
+}
+
+.div {
+    border: 1px solid red;
+    margin: 10px;
+    padding: 0;
+
+    font-size: 0;
+
+}
+
+#div, #div2, #div3 {
+
+
+    border: 1px solid red;
+
+
+}
+
+#div2, #div3{
+
+    margin: 20px;
+}
+
+#div1 {
+
+    margin: 20px;
+}

@@ -1,0 +1,31 @@
+#bi {
+    height: 1000px;
+    background-image: url("https://item.kakaocdn.net/do/c2690d752d764d48663d655e8eeb303715b3f4e3c2033bfd702a321ec6eda72c");
+    background-repeat: no-repeat;
+    /* background-size: 100px 200px; */
+    background-size: contain;
+    background-position: center;
+    background-color: bisque;
+}
+
+
+#div {
+
+
+    height: 100vh;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20231219/pngtree-pink-pastel-background-with-pink-aesthetic-sky-image_15522922.png");
+    background-size: cover;
+    overflow: auto;
+
+    background-attachment: fixed;
+    
+}
+#div p {
+    height: 200px;
+    margin-top: 100px;
+}
+
+body {
+    background: gray url("https://i.namu.wiki/i/f09O7mS-tCPupBEhrd-VewWhw3KqKDYflCvBhATMj-uDv3MFdSRTTjA5hMRmZWGGOFE-wIVWkxaSWCZtVcee7A.webp") no-repeat center;
+
+}
