@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #pixel .box1 {
     font-size: 16px;
 }
@@ -35,3 +36,42 @@
 #em .box1 .box2 .box3 {
     font-size: 1.5rem;
 }
+=======
+#pixel .box1 {
+    font-size: 16px;
+}
+#pixel .box1 .box2 {
+    font-size: 30px;
+
+    border: 1px solid red;
+    width: 100px;
+}
+#pixel .box1 .box2 .box3 {
+    font-size: 50px;
+}
+
+#percent .box1 {
+    font-size: 150%;
+
+    border: 1px solid red;
+    width: 50px;
+
+    background: rgba(0, 0, 255, 0.3);
+}
+#percent .box1 .box2 {
+    font-size: 150%;
+}
+#percent .box1 .box2 .box3 {
+    font-size: 150%;
+}
+
+#em .box1 {
+    font-size: 1.5em;
+}
+#em .box1 .box2 {
+    font-size: 1.5em;
+}
+#em .box1 .box2 .box3 {
+    font-size: 1.5rem;
+}
+>>>>>>> 8ed0b264f0ab0e7ed37b41d681732ec224cf14e5

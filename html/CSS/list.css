@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ul, li {
 
 
@@ -27,4 +28,35 @@ table {
 
 
     border-collapse: collapse;
+=======
+ul, li {
+
+
+
+    border: 1px solid red;
+}
+
+
+
+ul {
+
+
+
+    list-style: none;
+    padding: 0%;
+}
+
+
+
+td {
+
+
+    border: 1px solid red;
+}
+
+table {
+
+
+    border-collapse: collapse;
+>>>>>>> 8ed0b264f0ab0e7ed37b41d681732ec224cf14e5
 }

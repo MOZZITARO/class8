@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
 
 
@@ -45,4 +46,53 @@ img {
 
 
 
+=======
+body {
+
+
+    border: 2px solid gray;
+    width: 1257px;
+    height: 840px;
+}
+
+img {
+ 
+    
+    width: 740px;
+    height: 673px;
+    position: relative;
+    bottom: 750px;
+    left: 40px;
+}
+
+#behind {
+
+
+
+    border: 1px solid #6e52c7;
+    width: 733px;
+    height: 840px;
+    background-color: #6e52c7;
+    position: relative;
+    left: 600px;
+    
+
+
+
+}
+
+#front {
+
+    border: 1px solid gray;
+    width: 495px;
+    height: 471px;
+    position: relative;
+    bottom: 1340px;
+    left: 630px;
+    background-color: white;
+    text-align: right;
+
+
+
+>>>>>>> 8ed0b264f0ab0e7ed37b41d681732ec224cf14e5
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header {
 
 
@@ -377,4 +378,385 @@ left: 40px;
 
     position: relative;
     top: 60px;
+=======
+header {
+
+
+
+    
+    justify-content: space-between;
+    padding: 64px 0px 16px;
+    /* border: 1px solid gray; */
+    width: 1571px;
+    height: 176px;
+}
+
+nav {
+    
+    /* background-color: #84C639; */
+    position: relative;
+    bottom: 115px;
+    /* border: 1px solid gray; */
+    width: 1571px;
+    height: 54px;
+}
+
+body {
+
+
+
+    
+    /* border: 1px solid red; */
+    width: 1571px;
+    height: 500px;
+
+
+}
+
+#head {
+
+
+    /* border: 1px solid blue; */
+    position: absolute;
+    left: 20%;
+    top: 56px;
+    width: 1140px;
+    height: 96px;
+}
+
+#mostup {
+    position: absolute;
+    top: 10px;
+    /* border: 1px solid blue; */
+    width: 1570px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+
+#divide1 {
+    padding: 9px 56px;
+    font-size: 19px;
+    /* border: 1px solid goldenrod; */
+    width: 250px;
+    height: 25px;
+    display: inline-block;
+    background-color: #84C639;
+    text-align: center;
+    color: white;
+}
+
+#divide2 {
+  
+    
+    /* border: 1px solid goldenrod; */
+    width: 200px;
+    height: 25px;
+    display: inline;
+    position: relative;
+    right: 110px;
+    top: 10px;
+    
+}
+
+
+#divide3 {
+
+    width: 141px;
+    height: 36px;
+    position: relative;
+    top: 13px;
+    
+
+
+}
+
+
+
+
+#divide4 {
+    text-align: center;
+    background-color: #FA1818;
+    position: relative;
+    right: 3px;
+    /* border: 1px solid goldenrod; */
+    width: 118px;
+    height: 20px;
+    display: inline;
+    padding: 11px 33px;
+    color: aliceblue;
+}
+
+span {
+
+    
+    font-weight: bold;
+    color: #FA1818;
+}
+
+#letter1 {
+
+    position: relative;
+    left: 200px;
+    bottom: 80px;
+    /* border: 1px solid red; */
+    width:500px;
+    height: 100px;
+
+display: inline-block;
+list-style: none;
+}
+
+
+#letter2 {
+ 
+    position: relative;
+    bottom: 80px;
+    left: 180px;
+    /* border: 1px solid red; */
+    width:500px;
+    height: 100px;
+
+display: inline-block;
+list-style: none;
+}
+
+#content {
+
+    width: 1270px;
+    height: 280px;
+    /* border: 1px solid blueviolet; */
+    position: absolute;
+    
+    top: 207px;
+    left: 320px;
+
+}
+
+#title {
+
+width: 167px;
+height: 99px;
+/* border: 1px solid red; */
+
+}
+
+h1 {
+
+
+
+
+    position: absolute;
+    bottom: -14px;
+    font-size: 50px;
+}
+
+#nav1 {
+
+    
+    position: absolute;
+    left: 255px;
+    bottom: 17px;
+
+}
+
+img {
+
+width: 1260px;
+height: 280px;
+
+}
+
+#contents {
+
+
+    /* border: 1px solid brown; */
+    width: 1256px;
+    height: 1597px;
+    position: relative;
+    left: 310px;
+    top: 15px;
+    padding: 80px 0px;
+
+}
+
+#products 
+{
+    position: absolute;
+    top: 165px;
+    /* border: 1px solid blueviolet; */
+    width: 1256px;
+    height: 63px;
+    padding: 0px 0px 20px;
+}
+
+/* #products::after {
+
+content:"";
+width: 100px;
+position: absolute;
+border-bottom: 1px solid #FA1818;
+
+
+} */
+
+
+
+
+H3 {
+
+    
+    
+    text-align: center;
+    font-size: 40px;
+}
+
+span {
+
+
+
+
+    color: black;
+    border-bottom: 2px solid #FA1818;
+    width: 10%;
+}
+
+#flex1{
+
+display: flex;
+justify-content: space-between;
+position: relative;
+top: 200px;
+left: 1px;
+
+
+}
+
+#one {
+
+    
+    position: relative;
+    top: 200px;
+    left: 1px;
+
+}
+#flex2 {
+
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 200px;
+
+
+}
+
+#three {
+
+position: relative;
+top: 200px;
+font-size: 24px;
+
+
+}
+
+#flex3{
+
+
+    display: flex;
+justify-content: space-between;
+position: relative;
+top: 200px;
+}
+
+.item {
+
+
+    /* border: 1px solid gray; */
+    width: 284px;
+    height: 340px;
+    padding: 8px;
+
+}
+
+
+#grid {
+
+
+position: relative;
+left: 5px;
+width: 240px;
+height: 300px;
+padding: 16px;
+/* border: 1px solid gray; */
+
+
+}
+
+
+
+.photo {
+
+
+    /* border: 1px solid gray; */
+    width: 140px;
+    height: 140px;
+    position: relative;
+    left: 60px;
+    top: 10px;
+
+
+}
+
+.name {
+
+    position: relative;
+    top: 30px;
+
+}
+
+.price {
+
+
+    position: relative;
+    top: 30px;
+
+}
+
+#cancel {
+
+text-decoration: line-through;
+font-weight: 500;
+border-style: none;
+position: relative;
+bottom: 43px;
+left: 40px;
+
+}
+
+.ph {
+
+
+    border-style: none;
+    width: 178px;
+    height: 33px;
+    padding: 7px 0px;
+    background-color: #FA1818;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    color: white;
+}
+
+
+#all {
+
+
+
+
+
+    position: relative;
+    top: 60px;
+>>>>>>> 8ed0b264f0ab0e7ed37b41d681732ec224cf14e5
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
@@ -154,4 +155,162 @@ iframe {
 
     width: 391px;
     height: 360px;
+=======
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+body {
+
+width: 1250px;
+height: 890px;
+/* border: 1px solid gray; */
+
+
+}
+
+#rightup{
+
+
+padding: 30px 40px;
+width: 570px;
+height: 318px;
+/* border: 1px solid gray; */
+display: inline-block;
+
+}
+
+#leftup{
+
+    
+    width: 570px;
+    height: 372px;
+    /* border: 1px solid gray; */
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+#twoth {
+
+    font-size: 17px;
+    width: 450px;
+    height: 211px;
+    /* border: 1px solid gray; */
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+
+}
+
+#British {
+
+    width: 390px;
+    height: 76px;
+    /* border: 1px solid gray; */
+
+
+}
+
+
+
+#rightdown {
+
+
+    padding: 30px 40px;
+    width: 570px;
+    height: 439px;
+    /* border: 1px solid gray; */
+    display: inline-block;
+    
+}
+
+
+
+#leftdown {
+
+    padding: 30px 10px;
+    width: 570px;
+    height: 445px;
+    /* border: 1px solid gray; */
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+
+
+
+    /* width: 450px;
+    height: 256px; */
+    /* border: 1px solid gray; */
+
+
+
+
+
+#edsheeran {
+
+    /* width: 450px;
+    height: 96px; */
+    /* border: 1px solid gray; */
+    text-align: left;
+    padding: 10px 20px;
+    margin: 17px 0px 0px;
+    border-left: 5px solid  skyblue;
+    
+}
+
+
+img {
+
+width: 450px;
+height: 255px;
+
+}
+
+li {
+
+    list-style: none;
+    margin-top: 3px;
+    
+}
+
+#box {
+
+
+
+
+   margin-left: 50px;
+}
+
+#box2 {
+
+
+
+    margin-left: 50px;
+}
+
+#dave {
+    
+    margin-left:  50px;
+    width: 450px;
+    height: 281px;
+}
+
+#ED {
+
+
+    
+    margin-top: 15px;
+
+}
+
+iframe {
+
+
+
+    width: 391px;
+    height: 360px;
+>>>>>>> 8ed0b264f0ab0e7ed37b41d681732ec224cf14e5
 }

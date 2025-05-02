@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*tag 선택자 */
 h3 {
 
@@ -173,4 +174,181 @@ input[type=radio]:checked {
 /* input[type=radio]:checked {
     width: 500px;
    
+=======
+/*tag 선택자 */
+h3 {
+
+
+
+    font-size: large;
+     
+
+
+}
+
+/* id 선택자 */
+
+#li { 
+    color: white;
+    background: blue;
+}
+
+
+
+/*클래스 선택자 */
+
+.c1 {
+
+background: skyblue;
+
+}
+
+.bigtext {
+    font-size: 30;
+}
+
+
+#div1 {
+    background: yellow;
+}
+#div1:hover {
+
+background: gray;
+
+}
+#div1:active {
+    background: red;
+}
+
+#next:focus {
+    background: yellow;
+
+}
+
+
+/* 누군가의 자식 요소 중에서 첫번째 */
+li:first-child {
+
+    color: red;
+}
+
+ul:first-child {
+
+    color: red;
+}
+
+
+/* 실제 등장하는 요소 중 첫번째 */
+/* 1 아무 h3 */
+h3:first-of-type {
+    text-decoration: underline;
+} 
+
+/* 2 맞이가 있어야함 */
+td:nth-child(3) {
+    background: red;
+}
+/* 3 짝수 */
+td:nth-child(2n) {
+    background: blue;
+}
+    
+h1:after {
+    content: "AFTER";
+    font-size: 10px;
+}
+
+body { margin: 0; }
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#tb1, .td, h6 {
+
+    border: 1px solid red;
+}
+
+/* 바로 아래 요소(자식) */
+#ol1 > li {
+
+    color: black;
+}
+
+/* 띄어쓰기 : 자손 모두 */
+#ol1  li {
+
+    font-size:50px;
+}
+
+
+
+
+
+
+
+
+
+/* 태그 중 href 속성이 있는 것 */
+[href] {
+    color: saddlebrown;
+}
+
+/* 속성과 값이 모두 일치하는 것*/
+/* id=s1은 #s1 */
+[id=s1] {
+    font-size: 40px;
+}
+
+/* [class="c1 bigtext"]{    
+} */
+/* 공백으로 분리된 단어 찾음*/
+/* .클래스명 - 으로 줄일 수 있음*/
+[class ~= c1] {
+    font-size: 40px;
+}
+
+/* 값으로 시작하는 모든 값 선택 */
+[id ^= li_] {
+    font-size: 40px;
+}
+
+/* 값으로 끝나는 모든 값 선택 */
+[id $= li_] {
+    font-size: 40px;
+}
+
+/* li 태그이면서 c1클래스를 가진것 */
+li.c1 {
+    font-size: 40px;
+}
+input[type=password]{
+    font-size: 100px;
+}
+.bigtext.c1{
+    font-size: 100px;
+}
+
+
+/* 
+부정 선택자 : 연습필요
+a tag면서 href속성 값이 https로 시작하지 않는 것 */
+a:not([href ^= https]) {
+    font-size: 100px;
+}
+
+body::selection {
+    background: green;
+
+}
+
+input[type=radio]:checked {
+    width: 50px;
+    height: 50px;
+}
+
+/* input[type=radio]:checked {
+    width: 500px;
+   
+>>>>>>> 8ed0b264f0ab0e7ed37b41d681732ec224cf14e5
 } 위 덮어씀 */

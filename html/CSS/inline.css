@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 #i:hover {
 
@@ -64,3 +65,71 @@ li {
     /* 목록 점 없애기 */
     list-style: none;
 } 
+=======
+
+#i:hover {
+
+background: gray;
+    
+}
+
+#i2:hover {
+
+
+    background: gray;
+}
+
+
+.item {
+
+text-decoration: underline; 
+/* 밑줄 속성 = 12.19 */
+
+
+
+}
+
+
+.item2 {
+
+
+margin-top: 10%;
+display: inline-block;    
+width: 20%;
+padding: 1%;
+height: 200%;
+background: lightgray;
+background-size: 100px;
+
+
+}
+
+
+.item3
+{
+        
+    
+    margin-top: 10%;
+    
+
+}
+
+
+
+
+
+h1 {
+
+
+    border-bottom: 2px solid gray;
+}
+
+
+li {
+
+
+    
+    /* 목록 점 없애기 */
+    list-style: none;
+} 
+>>>>>>> 8ed0b264f0ab0e7ed37b41d681732ec224cf14e5

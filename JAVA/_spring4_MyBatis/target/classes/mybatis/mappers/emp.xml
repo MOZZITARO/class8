@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	           <!-- 상위 이름 -->
+<mapper namespace="mapper.emp">
+
+
+
+
+
+        <!-- 이것이 각각 불러올 이름 -->
+<select id="selectEmp" resultType="kr.or.human.dto.EmpDTO">
+select * from emp2                      
+<!-- DTO에 전부 넣어줌 while문도 다 --> 
+</select>
+
+
+                
+                         
+
+
+
+
+
+
+
+
+
+
+<select id="selectOneEmp" resultType="kr.or.human.dto.EmpDTO">
+select * from emp2  
+where empno = 7788                    
+<!-- DTO에 전부 넣어줌 while문도 다 --> 
+<!-- 이름 같으면 안됨 --> 
+</select>
+<!-- SQL 이걸불러다 실행 -->
+
+
+<!-- <select id="selectOneEmpMap" resultType="java.util.HashMap"> -->
+<select id="selectOneEmpMap" resultType="hashmap">
+select * from emp2  
+where empno = 7788                     
+</select>
+
+
+
+
+
+
+
+
+<!-- 하나만 -->
+<select id="selectEmpno" 
+resultType="empDTO"
+parameterType="int">
+
+select * from emp2  
+where empno = #{_parameter}
+
+<!-- 
+
+#{} : ''를 자동으로 붙여줌
+where ename = 'KING'
+where empno = 123
+
+${} : ''를 안붙임
+where ename = KING
+ -->
+                                     
+</select>
+
+           
+           
+           
+           
+           
+           
+           
+           
+  
+<!-- 값 표시 -->           
+<select id="selectEmpno2" 
+resultType="empDTO"
+parameterType="empDTO"> 
+
+select * from emp2  
+where empno = #{empno}
+  
+</select>
+
+
+
+
+
+
+<update id="selectUpdate"     
+parameterType="empDTO">
+update emp2
+set ename = #{ename},
+    sal = #{sal}  
+where empno = #{empno}
+  
+</update>
+
+
+
+<select id="Delete"     
+parameterType="empDTO">
+delete emp2
+where empno = #{empno}
+  
+</select>
+
+
+
+
+
+
+
+<select id="nextval"
+parameterType="int">
+select seq_posts.nextval as postid from dual
+</select>
+
+<!-- 조회 제외 전부INT -->
+<insert id="Insert"     
+parameterType="empDTO">
+
+<selectKey keyProperty="empno" resultType="int" order="BEFORE">
+select seq_emp2.nextval from dual
+</selectKey>
+
+
+insert into emp2 (empno, ename, sal)
+values (#{empno}, #{ename}, #{sal})
+</insert>
+
+
+
+
+
+
+
+
+
+<select id="whereEmp" resultType="empDTO" parameterType="empDTO">
+        select * from posts
+        where upper(title) like upper ('%' || #{title} || '%')
+</select>
+
+
+
+
+
+
+
+
+</mapper>

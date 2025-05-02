@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #box1 {
 
 
@@ -113,4 +114,121 @@ img {
     bottom: 40%;
     
     
+=======
+#box1 {
+
+
+
+
+
+    
+    border: 0.5px solid gray;
+    width: 1272px;
+        height: 906px;
+    
+    display: inline-block;
+}
+
+body {
+
+
+    
+
+        width: 1272px;
+        height: 1000px;
+        border: 1px solid gray;
+        
+        
+        
+
+
+
+
+}
+
+#middle {
+
+    background-color: lightgrey;
+    
+    display: inline-block;
+    border: 1px solid gray;
+    width: 339px;
+    height: 656px;
+    position: absolute;
+    right: 5px;
+    bottom: 225px;
+    right: 250px;
+    
+    
+}
+
+
+
+
+
+img {
+
+    width: 1272px;
+    height: 656px;
+
+
+
+}
+
+
+#ABOUT{
+
+    /* border: 1px solid gray; */
+    width: 319px;
+    height: 19px;
+    
+    
+    
+ 
+
+}
+
+#Ind{
+
+
+    /* border: 1px solid gray; */
+    width: 319px;
+    height: 76px;
+    
+    
+
+}
+
+#we{
+
+
+    /* border: 1px solid gray; */
+    width: 319px;
+    height: 76px;
+    margin-top: 10px;
+    
+}
+
+#read{
+
+
+
+    /* border: 1px solid gray; */
+    width: 320px;
+    height: 27px;
+    margin-top: 10px;
+     
+    
+}
+
+#letter {
+
+
+
+    text-align: center;
+    position: absolute;
+    bottom: 40%;
+    
+    
+>>>>>>> 8ed0b264f0ab0e7ed37b41d681732ec224cf14e5
 }

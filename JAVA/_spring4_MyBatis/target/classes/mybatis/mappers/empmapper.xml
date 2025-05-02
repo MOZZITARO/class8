@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	           <!-- 상위 이름 -->
+	               <!-- 패키지 + 인터페이스 -->
+<mapper namespace="kr.or.human.dao.mapper.EmpMapperDAO">
+
+
+         <!-- mapper -->
+        <!-- // "xml의 id"와 DAO의 메소드 명을 같게 한다 -->
+<select id="selectEmp" resultType="empDTO">
+select * from emp2
+</select>
+
+
+
+
+
+</mapper>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	           <!-- 상위 이름 -->
+<mapper namespace="mapper.emp.page">
+
+
+          <!-- 안쪽에서 바깥으로 실행 -->
+       <select id="selectPageEmp" resultType="kr.or.human.dto.EmpDTO">
+       
+       
+       <!-- index start에서 end까지 -->
+        select empno, ename, hiredate, sal from (
+            select rownum as empno, ename, hiredate, sal from (
+                select empno, ename, hiredate, sal from emp2
+                order by ename
+            )
+        )  
+        
+        <![CDATA[
+            where empno >= #{indexStart} and empno <= #{indexEnd} 
+           
+        ]]>
+        
+       
+        </select> 
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <!-- 모든 페이지 -->
+        <select id="totalEmp" resultType="int">
+        
+        select count(*) from emp2
+        
+        </select>
+        
+        
+        
+        
+        
+</mapper>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
     font-family: 'LOTTERIADDAG';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIADDAG.woff2') format('woff2');
@@ -96,4 +97,104 @@ text-overflow: ellipsis;
     word-wrap: break-word;
 
 
+=======
+@font-face {
+    font-family: 'LOTTERIADDAG';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIADDAG.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#p1 {
+
+
+
+    color: red;
+    /* text-decoration: underline; */
+    text-decoration: line-through;
+    font-family: 'LOTTERIADDAG';
+}
+
+input[type=checkbox]:checked + span{
+    /* text-decoration: underline; */
+    text-decoration: line-through; }
+
+.size {
+
+
+    font-size: 2em;
+}
+
+.style {
+
+    font-style: italic;
+}
+
+em {
+
+    font-style: normal;
+}
+
+.fw100{
+font-weight: 100;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.fw900{
+    font-weight: 900;
+}
+
+.fw2000{
+    font-weight: 2000;
+}
+
+.align-center {
+
+    text-align: center;
+}
+
+.align-justify {
+    letter-spacing: -0.1em;
+    border: 1px solid red;
+}
+
+.align-right {
+    
+    text-align: right;
+    border: 1px solid red;
+}
+
+
+.middle { 
+
+    border: 1px solid red;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.nowrap {
+    border: 1px solid red;
+width: 50vw;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+
+}
+
+
+.text {
+
+    border: 1px solid red;
+    width: 50vw;
+}
+.word-wrap {
+   
+    word-wrap: break-word;
+
+
+>>>>>>> 8ed0b264f0ab0e7ed37b41d681732ec224cf14e5
 }

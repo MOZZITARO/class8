@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	           <!-- 상위 이름 -->
+<mapper namespace="mapper.emp.dynamic">
+
+
+
+
+<!-- 원래썼는데 안씀 -->
+<select id="whereEmp" resultType="empDTO" parameterType="empDTO">
+        select ename from emp2
+<if test="      ename !=null and ename != ''    ">
+        where upper(ename) like upper ('%' || #{ename} || '%')
+</if> <!--  if면 값이 나오고 아니면 전체가 나온다 -->
+</select>
+
+
+
+
+
+
+<!-- <select id="selectEmp" resultType="empDTO" parameterType="empDTO">
+		select * from emp2
+		<where>
+			<if test="ename != null and ename != ''    ">
+				and upper(ename) like upper('%' || #{ename} || '%')
+			</if>
+			<if test=" (job != null and job != '') ">
+				and upper(ename) like upper('%' || #{ename} || '%')
+				or upper(job) like upper('%' || #{job} || '%')
+			</if>
+			
+			<if test=" sal != -1 ">
+				and sal <![CDATA[  >=  ]]> #{sal}
+			</if>
+			
+			<if test="type == 'ename'  and  (keyword != '' and keyword != null) ">
+				and upper(ename) like upper('%' || #{keyword} || '%')
+			</if>
+		</where>
+</select> -->
+
+
+
+
+
+     
+<!-- <choose>
+// 하나만 선택
+		<when test=" ename != null and ename !=''   ">
+		and upper(ename) like upper ('%' || #{ename} || '%')
+		</when>
+		<when test=" job != null and job !=''   ">
+		and upper(job) like upper ('%' || #{job} || '%')
+		</when>
+         
+         // 기본값
+		<otherwise>
+		and deptno = 20
+		</otherwise>
+</choose>
+ -->
+
+
+
+
+</mapper>
